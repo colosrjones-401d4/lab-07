@@ -1,11 +1,6 @@
-module.exports = (req, res, next) => {
-  let startDate = new Date();
-  console.log(`${req.method} ${req.path}`);
+'use strict';
 
-  req.requestTime = startDate;
-
+module.exports = (req,res,next) => {
+  console.log('method: ',req.method, 'time: ',req.requestTime, 'path: ', req.path);
   next();
-
-  let endDate = new Date();
-console.log(`${req.method} ${req.path} done in ${endDate - startDate}ms`);
 };
