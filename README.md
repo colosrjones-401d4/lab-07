@@ -6,7 +6,7 @@
 
 ### Links and Resources
 * [submission PR](https://github.com/colosrjones-401d4/lab-07/tree/express)
-* [travis](https://travis-ci.com/colosrjones-401d4/lab-06)
+* [travis](https://travis-ci.com/colosrjones-401d4/lab-07)
 
 #### Documentation
 * [Doc](https://github.com/DeltaVCode/cr-js-401d4/tree/master/curriculum/class-07/lab)
